@@ -1,0 +1,50 @@
+
+.progression
+{
+  font-family: 'Merriweather', serif !important;
+	width: 420px;
+	text-align: center;
+}
+
+p.progress-text
+{
+  font-family: 'Merriweather', serif !important;
+	font-weight: bold;
+}
+
+.progress-container
+{
+  font-family: 'Merriweather', serif !important;
+  border-radius: 50px;
+	display: block;
+	background-color: #f4f1ea;
+	height: 12px;
+}
+
+.progress-bar
+{
+  font-family: 'Merriweather', serif !important;
+  border-radius: 50px;
+	background-color: #76A7BB;
+	height: 100%;
+	width: 0%;
+	transition: width 0.5s;
+}
+
+button {
+    width: 25px; /* Adjust as needed */
+    text-align: center;
+}
+
+
+#btnDecrease {
+    background-color: #cd5944; /* Changes background color */  border-radius: 50px;
+    color: white; /* Changes text color */
+
+}
+
+#btnIncrease {
+    background-color: #eabe3d; /* Changes background color */   border-radius: 50px;
+    color: white; /* Changes text color */
+
+}
